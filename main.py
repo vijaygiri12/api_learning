@@ -1,18 +1,23 @@
-import os
-import requests
-from dotenv import load_dotenv
+from api_client import get_posts, create_post, update_post, delete_post
 
-load_dotenv()
+posts = get_posts()
 
-api_key = os.getenv("MY_API_KEY")
+print("Total posts:", len(posts))
+"""for post in posts:
+    print(post["id"], "-", post["title"])
+"""
+posted = create_post(
+    "Learning Python APIs",
+    "Building my first API client.",
+     2
+)
+print(posted)
+print(type(posted))
 
-url = "https://jsonplaceholder.typicode.com/posts"
+print(update_post(101, title="New title"))
 
-headers = {
-    "Authorization": f"Bearer {api_key}"
-}
+print(update_post(101, body="New body"))
 
-response = requests.get(url, headers=headers)
+print(update_post(101, title="New title", body="New body"))
 
-print("Status:", response.status_code)
-print("Authorization:", response.request.headers["Authorization"])
+print(delete_post(101))
