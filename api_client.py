@@ -4,96 +4,47 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 def request(method, url, **kwargs):
+    headers = kwargs.pop("headers", {})
+
+    api_key = os.getenv("MY_API_KEY")
+
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+
     try:
-        response = requests.request(method, url, timeout=5, **kwargs
+        response = requests.request(
+            method,
+            url,
+            headers=headers,
+            timeout=5,
+            **kwargs
         )
 
         response.raise_for_status()
 
         if response.content:
             data = response.json()
-
         else:
-            data =  None
+            data = None
 
-        return{"status_code": response.status_code,
-               "data": data
+        return {
+            "error": False,
+            "status_code": response.status_code,
+            "data": data
+        }
 
-}
+    except requests.exceptions.HTTPError as e:
+        return {
+            "error": True,
+            "status_code": e.response.status_code,
+            "message": str(e)
+        }
 
     except requests.exceptions.RequestException as e:
-        print("Request failed:", e)
-        return None
-
-def get_posts(user_id=None, limit=None):
-    url = "https://jsonplaceholder.typicode.com/posts"
-    params = {}
-
-    if user_id is not None:
-        params["userId"] = user_id
-
-    if limit is not None:
-        params["_limit"] = limit
-
-    headers = {
-        "Authorization": f"Bearer {os.getenv('MY_API_KEY')}"
-    }
-
-    result = request("GET", url, params=params,  headers=headers)
-    if result is not None:
-        return result["data"]
-    
-    return None
-
-def create_post(title, body, userId):
-    url = "https://jsonplaceholder.typicode.com/posts"
-
-    post = {"title" : title,
-    "body" : body,
-    "userId" : userId
-
-}
-
-    headers = {
-        "Authorization": f"Bearer {os.getenv('MY_API_KEY')}"
-    }
-
-    result =  request("POST", url, json=post, headers=headers)
-    if result is not None:
-        return result["data"]
-    
-    return None
-    
-def update_post(post_id, title=None, body=None):
-    url = "https://jsonplaceholder.typicode.com/posts/post_id"
-    post_update = {}
-
-    headers = {
-        "Authorization": f"Bearer {os.getenv('MY_API_KEY')}"}
-
-    if title is not None:
-        post_update["title"]=title
-
-    if body is not None:
-        post_update["body"]=body
-
-    result = request( "PATCH", url, json=post_update, headers=headers)
-    if result is not None:
-        return result["data"]
-    
-    return None
-    
-def delete_post(post_id):
-    url = "https://jsonplaceholder.typicode.com/posts/post_id"
-
-    headers = {
-        "Authorization": f"Bearer {os.getenv('MY_API_KEY')}"}
-
-
-    result =  request( "DELETE", url, headers=headers)
-
-    if result is None:
-        return False
-
-    return 200 <= result["status_code"] < 300
+        return {
+            "error": True,
+            "status_code": None,
+            "message": str(e)
+        }
