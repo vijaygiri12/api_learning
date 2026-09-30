@@ -1,0 +1,967 @@
+{
+    "Average_temperature": 25.2,
+    "hottest_city": "Bikaner",
+    "highest_temperature": 29.2,
+    "weather_data": [
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Mumbai",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 89,
+                "wind_speed": 6.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Delhi",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 82,
+                "wind_speed": 1.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bengaluru",
+            "data": {
+                "temperature": 21.7,
+                "humidity": 86,
+                "wind_speed": 4.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Hyderabad",
+            "data": {
+                "temperature": 26.8,
+                "humidity": 77,
+                "wind_speed": 4.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ahmedabad",
+            "data": {
+                "temperature": 26.8,
+                "humidity": 92,
+                "wind_speed": 4.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Chennai",
+            "data": {
+                "temperature": 25.5,
+                "humidity": 96,
+                "wind_speed": 9.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Kolkata",
+            "data": {
+                "temperature": 27.5,
+                "humidity": 94,
+                "wind_speed": 4.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Surat",
+            "data": {
+                "temperature": 26.0,
+                "humidity": 94,
+                "wind_speed": 3.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Pune",
+            "data": {
+                "temperature": 23.1,
+                "humidity": 91,
+                "wind_speed": 5.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jaipur",
+            "data": {
+                "temperature": 24.7,
+                "humidity": 79,
+                "wind_speed": 0.5
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Lucknow",
+            "data": {
+                "temperature": 26.1,
+                "humidity": 85,
+                "wind_speed": 4.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Kanpur",
+            "data": {
+                "temperature": 26.4,
+                "humidity": 79,
+                "wind_speed": 5.5
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Nagpur",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 85,
+                "wind_speed": 4.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Indore",
+            "data": {
+                "temperature": 23.3,
+                "humidity": 91,
+                "wind_speed": 1.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Thane",
+            "data": {
+                "temperature": 25.8,
+                "humidity": 96,
+                "wind_speed": 2.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bhopal",
+            "data": {
+                "temperature": 22.8,
+                "humidity": 96,
+                "wind_speed": 3.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Visakhapatnam",
+            "data": {
+                "temperature": 26.4,
+                "humidity": 93,
+                "wind_speed": 6.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Pimpri-chinchwad",
+            "data": {
+                "temperature": 22.5,
+                "humidity": 96,
+                "wind_speed": 3.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Patna",
+            "data": {
+                "temperature": 27.7,
+                "humidity": 89,
+                "wind_speed": 3.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Vadodara",
+            "data": {
+                "temperature": 25.7,
+                "humidity": 93,
+                "wind_speed": 3.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ghaziabad",
+            "data": {
+                "temperature": 25.1,
+                "humidity": 88,
+                "wind_speed": 1.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ludhiana",
+            "data": {
+                "temperature": 26.0,
+                "humidity": 81,
+                "wind_speed": 1.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Agra",
+            "data": {
+                "temperature": 25.3,
+                "humidity": 88,
+                "wind_speed": 3.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Nashik",
+            "data": {
+                "temperature": 22.1,
+                "humidity": 96,
+                "wind_speed": 5.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Faridabad",
+            "data": {
+                "temperature": 26.4,
+                "humidity": 84,
+                "wind_speed": 3.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Meerut",
+            "data": {
+                "temperature": 26.2,
+                "humidity": 78,
+                "wind_speed": 1.5
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Rajkot",
+            "data": {
+                "temperature": 25.0,
+                "humidity": 94,
+                "wind_speed": 6.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Kalyan-dombivli",
+            "data": {
+                "temperature": 26.1,
+                "humidity": 97,
+                "wind_speed": 2.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Varanasi",
+            "data": {
+                "temperature": 27.1,
+                "humidity": 95,
+                "wind_speed": 3.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Srinagar",
+            "data": {
+                "temperature": 13.6,
+                "humidity": 90,
+                "wind_speed": 2.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Aurangabad",
+            "data": {
+                "temperature": 24.2,
+                "humidity": 76,
+                "wind_speed": 10.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Dhanbad",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 89,
+                "wind_speed": 5.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Amritsar",
+            "data": {
+                "temperature": 25.1,
+                "humidity": 82,
+                "wind_speed": 2.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Navi mumbai",
+            "data": {
+                "temperature": 25.8,
+                "humidity": 96,
+                "wind_speed": 1.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Allahabad",
+            "data": {
+                "temperature": 23.2,
+                "humidity": 13,
+                "wind_speed": 11.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ranchi",
+            "data": {
+                "temperature": 23.1,
+                "humidity": 91,
+                "wind_speed": 4.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Howrah",
+            "data": {
+                "temperature": 27.7,
+                "humidity": 93,
+                "wind_speed": 4.2
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Coimbatore",
+            "data": {
+                "temperature": 24.8,
+                "humidity": 87,
+                "wind_speed": 6.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jabalpur",
+            "data": {
+                "temperature": 24.7,
+                "humidity": 93,
+                "wind_speed": 4.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Gwalior",
+            "data": {
+                "temperature": 25.4,
+                "humidity": 84,
+                "wind_speed": 4.2
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Vijayawada",
+            "data": {
+                "temperature": 28.4,
+                "humidity": 84,
+                "wind_speed": 8.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jodhpur",
+            "data": {
+                "temperature": 27.3,
+                "humidity": 67,
+                "wind_speed": 8.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Madurai",
+            "data": {
+                "temperature": 27.6,
+                "humidity": 86,
+                "wind_speed": 4.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Raipur",
+            "data": {
+                "temperature": 26.0,
+                "humidity": 95,
+                "wind_speed": 5.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Kota",
+            "data": {
+                "temperature": 24.2,
+                "humidity": 85,
+                "wind_speed": 2.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Guwahati",
+            "data": {
+                "temperature": 27.9,
+                "humidity": 88,
+                "wind_speed": 4.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Chandigarh",
+            "data": {
+                "temperature": 24.4,
+                "humidity": 77,
+                "wind_speed": 6.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Solapur",
+            "data": {
+                "temperature": 27.3,
+                "humidity": 72,
+                "wind_speed": 3.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Hubli-dharwad",
+            "data": {
+                "temperature": 21.9,
+                "humidity": 97,
+                "wind_speed": 10.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bareilly",
+            "data": {
+                "temperature": 25.5,
+                "humidity": 88,
+                "wind_speed": 7.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Moradabad",
+            "data": {
+                "temperature": 26.0,
+                "humidity": 88,
+                "wind_speed": 7.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Mysore",
+            "data": {
+                "temperature": 21.7,
+                "humidity": 86,
+                "wind_speed": 4.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Gurgaon",
+            "data": {
+                "temperature": 23.9,
+                "humidity": 94,
+                "wind_speed": 10.5
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Aligarh",
+            "data": {
+                "temperature": 25.4,
+                "humidity": 85,
+                "wind_speed": 5.0
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jalandhar",
+            "data": {
+                "temperature": 25.4,
+                "humidity": 80,
+                "wind_speed": 2.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Tiruchirappalli",
+            "data": {
+                "temperature": 26.8,
+                "humidity": 93,
+                "wind_speed": 1.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bhubaneswar",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 97,
+                "wind_speed": 3.5
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Salem",
+            "data": {
+                "temperature": 25.6,
+                "humidity": 96,
+                "wind_speed": 3.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Thiruvananthapuram",
+            "data": {
+                "temperature": 25.4,
+                "humidity": 92,
+                "wind_speed": 12.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bhiwandi",
+            "data": {
+                "temperature": 25.4,
+                "humidity": 99,
+                "wind_speed": 1.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Saharanpur",
+            "data": {
+                "temperature": 24.9,
+                "humidity": 79,
+                "wind_speed": 4.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Gorakhpur",
+            "data": {
+                "temperature": 25.5,
+                "humidity": 82,
+                "wind_speed": 4.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Guntur",
+            "data": {
+                "temperature": 28.0,
+                "humidity": 89,
+                "wind_speed": 5.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bikaner",
+            "data": {
+                "temperature": 29.2,
+                "humidity": 52,
+                "wind_speed": 9.2
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Amravati",
+            "data": {
+                "temperature": 24.7,
+                "humidity": 81,
+                "wind_speed": 4.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Noida",
+            "data": {
+                "temperature": 26.3,
+                "humidity": 85,
+                "wind_speed": 2.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jamshedpur",
+            "data": {
+                "temperature": 26.0,
+                "humidity": 97,
+                "wind_speed": 5.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bhilai",
+            "data": {
+                "temperature": 26.2,
+                "humidity": 97,
+                "wind_speed": 4.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Cuttack",
+            "data": {
+                "temperature": 26.9,
+                "humidity": 98,
+                "wind_speed": 2.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Firozabad",
+            "data": {
+                "temperature": 25.8,
+                "humidity": 84,
+                "wind_speed": 3.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Kochi",
+            "data": {
+                "temperature": 26.0,
+                "humidity": 69,
+                "wind_speed": 8.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Nellore",
+            "data": {
+                "temperature": 24.8,
+                "humidity": 95,
+                "wind_speed": 19.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Bhavnagar",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 85,
+                "wind_speed": 6.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Dehradun",
+            "data": {
+                "temperature": 21.6,
+                "humidity": 85,
+                "wind_speed": 1.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Durgapur",
+            "data": {
+                "temperature": 27.5,
+                "humidity": 85,
+                "wind_speed": 5.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Asansol",
+            "data": {
+                "temperature": 27.0,
+                "humidity": 92,
+                "wind_speed": 5.1
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Rourkela",
+            "data": {
+                "temperature": 25.4,
+                "humidity": 94,
+                "wind_speed": 6.2
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Nanded",
+            "data": {
+                "temperature": 24.0,
+                "humidity": 96,
+                "wind_speed": 4.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Kolhapur",
+            "data": {
+                "temperature": 22.5,
+                "humidity": 96,
+                "wind_speed": 6.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ajmer",
+            "data": {
+                "temperature": 24.8,
+                "humidity": 73,
+                "wind_speed": 8.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Akola",
+            "data": {
+                "temperature": 24.7,
+                "humidity": 86,
+                "wind_speed": 5.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jamnagar",
+            "data": {
+                "temperature": 26.2,
+                "humidity": 91,
+                "wind_speed": 5.6
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ujjain",
+            "data": {
+                "temperature": 23.0,
+                "humidity": 93,
+                "wind_speed": 6.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Loni",
+            "data": {
+                "temperature": 26.2,
+                "humidity": 82,
+                "wind_speed": 3.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Siliguri",
+            "data": {
+                "temperature": 26.6,
+                "humidity": 84,
+                "wind_speed": 4.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jhansi",
+            "data": {
+                "temperature": 26.2,
+                "humidity": 87,
+                "wind_speed": 2.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ulhasnagar",
+            "data": {
+                "temperature": 25.6,
+                "humidity": 98,
+                "wind_speed": 2.2
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Jammu",
+            "data": {
+                "temperature": 22.6,
+                "humidity": 85,
+                "wind_speed": 4.3
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Mangalore",
+            "data": {
+                "temperature": 9.9,
+                "humidity": 71,
+                "wind_speed": 11.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Erode",
+            "data": {
+                "temperature": 27.0,
+                "humidity": 84,
+                "wind_speed": 5.4
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Belgaum",
+            "data": {
+                "temperature": 21.3,
+                "humidity": 97,
+                "wind_speed": 8.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Ambattur",
+            "data": {
+                "temperature": 25.5,
+                "humidity": 96,
+                "wind_speed": 8.2
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Tirunelveli",
+            "data": {
+                "temperature": 28.3,
+                "humidity": 70,
+                "wind_speed": 12.7
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Malegaon",
+            "data": {
+                "temperature": 23.5,
+                "humidity": 90,
+                "wind_speed": 2.8
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Gaya",
+            "data": {
+                "temperature": 26.7,
+                "humidity": 92,
+                "wind_speed": 3.9
+            }
+        },
+        {
+            "error": false,
+            "status_code": 200,
+            "city": "Udaipur",
+            "data": {
+                "temperature": 22.6,
+                "humidity": 85,
+                "wind_speed": 5.7
+            }
+        }
+    ]
+}

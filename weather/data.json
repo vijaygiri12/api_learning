@@ -1,0 +1,10 @@
+{
+    "error": false,
+    "status_code": 200,
+    "city": "hyderabad",
+    "data": {
+        "temperature": 26.5,
+        "humidity": 83,
+        "wind_speed": 2.4
+    }
+}
