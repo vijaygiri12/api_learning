@@ -14,7 +14,8 @@ while True:
         break
         
     elif query.lower() == "g":
-        city = get_single_city_report(city)
+        name = input("enter city name: ")
+        city = get_single_city_report(name)
         print(city)
         
     elif query.lower() == "c":
