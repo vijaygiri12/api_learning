@@ -21,10 +21,10 @@ def weather_report(cities: str):
 
     result = compare_weather(city_list)
 
-    if result is None:
+    if not result["success"]:
         raise HTTPException(
-            status_code=404,
-            detail="No valid cities were found."
+            status_code=400,
+            detail= result["message"]
         )
 
-    return result
+    return result["message"]

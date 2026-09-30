@@ -49,7 +49,8 @@ def compare_weather(cities_list):
         result1["weather_data"] = weather_data
     
     if not result1:
-        report = "city names were invalid"
+        report = {"success": False, "message":"city names were invalid"}
         return report
     else:
-        return result1
+        report = {"success": True, "message": result1}
+        return report
