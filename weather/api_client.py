@@ -1,16 +1,8 @@
 import requests
-import os
-from dotenv import load_dotenv
-
-load_dotenv(".env")
-
 
 class APIClient:
     def __init__(self, base_url, **kwargs):
             self.headers = kwargs.pop("headers", {})
-            self.api_key = os.getenv("MY_API_KEY")
-            if self.api_key:
-                self.headers["Authorization"] = f"Bearer {self.api_key}"
             base_url  = base_url.rstrip( "/")
             self.base_url = base_url
     def request(self, method, url,  **kwargs):

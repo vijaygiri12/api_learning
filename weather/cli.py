@@ -1,8 +1,12 @@
 from main import get_single_city_report, compare_weather
 import os
 import json
-folder = "/storage/emulated/0/ColorOS/weather"
-file_path = os.path.join(folder, "weather.txt")
+from pathlib import Path
+
+folder = Path(__file__).resolve().parent / "data"
+folder.mkdir(exist_ok=True)
+
+file_path = folder / "weather.json"
 while True:
     
     print("(This program gives weather update for given city name)")
@@ -29,6 +33,7 @@ while True:
         print(result)
         with open(file_path, "w") as file:
             json.dump(result, file, indent=4)
+        print("file is saved here: ", file_path)
     else:
         print("invalid input")
         continue
