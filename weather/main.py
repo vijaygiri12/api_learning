@@ -15,7 +15,7 @@ def compare_weather(cities_list):
     weather_data = []
     cities_names = []
     temps = []
-    
+    result1 = {}    
     if not cities_list:
         return "the list was empty."
     else:
@@ -37,15 +37,19 @@ def compare_weather(cities_list):
             
     
     
-    if temps != []:
+    if temps:
         
         avg_temp = round(sum(temps)/len(cities_names),1)
         max_temp = max(temps)
         max_index = temps.index(max_temp)
         hottest_city = cities_names[max_index]
-        result1 = {}
         result1["Average_temperature"] = avg_temp
         result1["hottest_city"] = hottest_city
         result1["highest_temperature"] = max_temp
         result1["weather_data"] = weather_data
+    
+    if not result1:
+        report = "city names were invalid"
+        return report
+    else:
         return result1
