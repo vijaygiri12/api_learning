@@ -19,21 +19,27 @@ while True:
         
     elif query.lower() == "g":
         name = input("enter city name: ")
-        city = get_single_city_report(name)
-        print(city)
+        if not name:
+            print("please enter city name")
+        else:
+            city = get_single_city_report(name)
+            print(city)
         
     elif query.lower() == "c":
         prompt = (" enter cities names separated with , : ")
         city = input(prompt)
         city_list = (city)
-        cities_list = (city.strip() for city in city_list.split(",") if city.strip() )
+        cities_list = [city.strip() for city in city_list.split(",") if city.strip() ]
         
         print("getting data from server")
         result = compare_weather(cities_list)
         print(result)
-        with open(file_path, "w") as file:
-            json.dump(result, file, indent=4)
-        print("file is saved here: ", file_path)
+        if not result["success"]:
+            pass
+        else:
+            with open(file_path, "w") as file:
+                json.dump(result, file, indent=4)
+                print("file is saved here: ", file_path)
     else:
         print("invalid input")
         continue

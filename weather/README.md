@@ -32,7 +32,7 @@ weather/
 ├── weather.py
 ├── main.py
 ├── cli.py
-├── fastapi_test.py
+├── app.py
 ├── requirements.txt
 └── README.md
 Installation
@@ -60,7 +60,7 @@ For multiple cities, enter their names separated by commas:
 Kolkata,Mumbai,Delhi
 FastAPI
 Start the server:
-uvicorn fastapi_test:app --host 127.0.0.1 --port 8000
+uvicorn app:app --host 127.0.0.1 --port 8000
 API Endpoints
 Single City
 GET /weather/{city}
@@ -82,3 +82,4 @@ Ctrl + C
 to stop the FastAPI server.
 Project Status
 This project was built as part of my Python and API development learning journey, covering API integration, HTTP communication, error handling, FastAPI, Git, and GitHub.
+'''
