@@ -1,19 +1,39 @@
 # Weather Data API
 
-A Python-based weather application that retrieves real-time weather
-data using the Open-Meteo API.
+A Python-based weather application that retrieves real-time weather data using the Open-Meteo API.
+
+## Description
+
+This project retrieves weather information for cities using Open-Meteo's geocoding and weather APIs.
+
+It supports both single-city weather reports and comparisons between multiple cities. The project also includes a reusable API client for handling HTTP requests and a FastAPI interface for exposing the weather functionality through HTTP endpoints.
 
 ## Features
 
-- Search weather data by city name
-- Geocoding using Open-Meteo
-- Retrieve temperature, humidity, and wind speed
+- Search for a city by name
+- Geocode city names using Open-Meteo
+- Retrieve current temperature
+- Retrieve relative humidity
+- Retrieve wind speed
+- Get weather information for a single city
 - Compare weather data across multiple cities
 - Calculate average temperature
 - Identify the hottest city
-- Save weather results as JSON
-- FastAPI endpoint for accessing weather data
-- Uses a reusable API client for HTTP requests
+- Identify the highest recorded temperature in the comparison
+- Handle invalid or unavailable cities
+- Reusable API client for HTTP communication
+- FastAPI endpoints for accessing weather data
+- JSON-based weather result handling
+
+## Technologies Used
+
+- Python
+- Requests
+- Open-Meteo API
+- FastAPI
+- Uvicorn
+- python-dotenv
+- Git & GitHub
 
 ## Project Structure
 
@@ -24,6 +44,5 @@ weather/
 ├── main.py
 ├── cli.py
 ├── fastapi_test.py
-├── data.json
-├── weather.txt
+├── requirements.txt
 └── README.md
