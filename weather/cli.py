@@ -1,5 +1,4 @@
 from main import get_single_city_report, compare_weather
-import os
 import json
 from pathlib import Path
 

@@ -35,51 +35,123 @@ weather/
 ├── app.py
 ├── requirements.txt
 └── README.md
-Installation
-1. Clone the repository
+```
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/vijaygiri12/api_learning.git
 cd api_learning/weather
-2. Create a virtual environment
+```
+
+### 2. Create a virtual environment
+
+```bash
 python -m venv .venv
+```
+
 Activate it:
-Windows
+
+**Windows**
+```bash
 .venv\Scripts\activate
-Linux / macOS
+```
+
+**Linux / macOS**
+```bash
 source .venv/bin/activate
-3. Install dependencies
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
-Usage
-Command-Line Interface
+```
+
+## Usage
+
+### Command-Line Interface
+
 Run:
+
+```bash
 python cli.py
+```
+
 Available options:
+
+```text
 g - Get weather for one city
 c - Compare multiple cities
 q - Quit
+```
+
 For multiple cities, enter their names separated by commas:
+
+```text
 Kolkata,Mumbai,Delhi
-FastAPI
+```
+
+### FastAPI
+
 Start the server:
+
+```bash
 uvicorn app:app --host 127.0.0.1 --port 8000
-API Endpoints
-Single City
+```
+
+### API Endpoints
+
+#### Single City
+
+```http
 GET /weather/{city}
+```
+
 Example:
+
+```text
 http://127.0.0.1:8000/weather/Kolkata
-Multiple Cities
+```
+
+#### Multiple Cities
+
+```http
 GET /weather_report/{cities}
+```
+
 Example:
+
+```text
 http://127.0.0.1:8000/weather_report/Kolkata,Mumbai,Delhi
-Invalid cities are skipped when valid cities are also provided. If no valid cities are found, the API returns 400 Bad Request.
-API Documentation
+```
+
+Invalid cities are skipped when valid cities are also provided. If no valid cities are found, the API returns `400 Bad Request`.
+
+### API Documentation
+
 Interactive API documentation is available at:
+
+```text
 http://127.0.0.1:8000/docs
-Data Source
+```
+
+## Data Source
+
 Weather and geocoding data are provided by the Open-Meteo API.
-Stopping the Server
+
+## Stopping the Server
+
 Press:
+
+```text
 Ctrl + C
+```
+
 to stop the FastAPI server.
-Project Status
+
+## Project Status
+
 This project was built as part of my Python and API development learning journey, covering API integration, HTTP communication, error handling, FastAPI, Git, and GitHub.
-'''

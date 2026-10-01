@@ -6,10 +6,7 @@ def get_single_city_report(city):
     city_name1 = city_name.capitalize()
     print("getting data for city", city)
     report = get_weather(city_name1)
-    if report["error"]:
-        return report["data"]
-    else:
-        return report
+    return report
     
 def compare_weather(cities_list):
     weather_data = []
@@ -17,7 +14,7 @@ def compare_weather(cities_list):
     temps = []
     result1 = {}    
     if not cities_list:
-        return "the list was empty."
+        return {"success": False, "message": "the list was empty."}
     else:
             city_list = []
             for city in cities_list:
